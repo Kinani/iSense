@@ -1,0 +1,12 @@
+﻿<Application
+    x:Class="iSense.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:iSense"
+    xmlns:vm="using:iSense.ViewModels"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <vm:EmotionFacesViewModel x:Key="EmotionFacesViewModel"/>
+    </Application.Resources>
+
+</Application>
