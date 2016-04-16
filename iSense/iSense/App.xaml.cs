@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.WindowsAzure.MobileServices;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -34,6 +35,9 @@ namespace iSense
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
+
+        public static MobileServiceClient MobileService =
+             new MobileServiceClient("https://isense.azurewebsites.net");
 
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points

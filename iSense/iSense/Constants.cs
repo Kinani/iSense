@@ -12,6 +12,8 @@
         // You can obtain a subscription key for Face API by following the instructions here: https://www.projectoxford.ai/doc/general/subscription-key-mgmt
         public const string OxfordAPIKey = "17a8e7d56e9f477db48116cb67e8ab96";
 
+        public const string OxfordEmotionAPIKey = "c589e5f0d9014ec89e5be9fad4f5e2de";
+
         // Name of the folder in which all Whitelist data is stored
         public const string WhiteListFolderName = "Facial Recognition Door Whitelist";
 
